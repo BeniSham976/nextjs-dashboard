@@ -22,6 +22,8 @@ export default function Page() {
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:w-4/5 lg:gap-6 lg:justify-center lg:mx-auto xl:grid xl:grid-cols-2 xl:w-4/5 xl:gap-6 xl:justify-center 2xl:mx-auto 2xl:grid 2xl:grid-cols-2 2xl:w-4/5 2xl:gap-6 2xl:justify-center xl:mx-auto md:grid md:grid-cols-2 md:gap-4 md:mx-auto">
         <section className="bg-blue-500 rounded-xl" id='one'>
+        <h2>Python Logo</h2>
+        This is the next step up from the Introduction to Scratch. In this section, you will create apps, games if...then conditions and variables.
           <Section1Image
           src="/python.png"
           width={1000}
