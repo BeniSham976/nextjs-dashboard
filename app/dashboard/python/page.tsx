@@ -8,7 +8,7 @@ import styles from '@/app/ui/home.module.css';
 export default function Page() {
     return ( 
       // ...
-    <main className="flex min-h-screen flex-col p-6">
+    <main>
     <div className="flex h-20 shrink-0 items-end rounded-lg p-4 md:h-52">
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
