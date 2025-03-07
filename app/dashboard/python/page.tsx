@@ -29,7 +29,7 @@ export default function Page() {
 
         <section className='bg-purple-500 rounded-xl' id='two'>
         <h2>More Python</h2>
-        <p>This is the next step up from the Introduction to Scratch. In this section, you will create apps, games if...then conditions and variables. Using the skills you built on in the beginning, the projects can become more complex, which will display your higher levels of programming skills.</p>
+        This is the next step up from the Introduction to Scratch. In this section, you will create apps, games if...then conditions and variables. Using the skills you built on in the beginning, the projects can become more complex, which will display your higher levels of programming skills.
         </section>
         </div>
       </div>
