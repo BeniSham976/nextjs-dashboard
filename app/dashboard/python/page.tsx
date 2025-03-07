@@ -2,7 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
-import Image from 'next/image';
+import Section1Image from 'next/image';
 import styles from '@/app/ui/home.module.css';
 
 export default function Page() {
@@ -22,10 +22,12 @@ export default function Page() {
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:w-4/5 lg:gap-6 lg:justify-center lg:mx-auto xl:grid xl:grid-cols-2 xl:w-4/5 xl:gap-6 xl:justify-center 2xl:mx-auto 2xl:grid 2xl:grid-cols-2 2xl:w-4/5 2xl:gap-6 2xl:justify-center xl:mx-auto md:grid md:grid-cols-2 md:gap-4 md:mx-auto">
         <section className="bg-blue-500 rounded-xl" id='one'>
-
+          <Section1Image
+          src="/python.png"
+          alt="Section 2 image"></Section1Image>
         </section>
-        <section className='bg-purple-500 rounded-xl' id='two'>
 
+        <section className='bg-purple-500 rounded-xl' id='two'>
         <h2>More Python</h2>
         <p>This is the next step up from the Introduction to Scratch. In this section, you will create apps, games if...then conditions and variables. Using the skills you built on in the beginning, the projects can become more complex, which will display your higher levels of programming skills.</p>
         </section>
