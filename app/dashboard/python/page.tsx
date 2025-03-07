@@ -29,7 +29,7 @@ export default function Page() {
           alt="Section 2 image">
           </Section1Image>
         <h2>Python Logo</h2>
-        This is the next step up from the Introduction to Scratch. In this section, you will create apps, games if...then conditions and variables.
+        In the introduction of Python, it includes topics such as installation, running your first Python program and understanding the syntax for Python. After gaining the foundation skills to use Python, we can begin to use Python for small animation, app and interactive projects.
         </section>
 
         <section className='bg-purple-500 rounded-xl' id='two'>
