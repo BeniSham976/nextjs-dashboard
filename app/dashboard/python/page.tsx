@@ -23,7 +23,7 @@ export default function Page() {
         <div className="lg:grid lg:grid-cols-2 lg:w-4/5 lg:gap-6 lg:justify-center lg:mx-auto xl:grid xl:grid-cols-2 xl:w-4/5 xl:gap-6 xl:justify-center 2xl:mx-auto 2xl:grid 2xl:grid-cols-2 2xl:w-4/5 2xl:gap-6 2xl:justify-center xl:mx-auto md:grid md:grid-cols-2 md:gap-4 md:mx-auto">
         <section className="bg-blue-500 rounded-xl" id='one'>
         <Section1Image
-          src="/python.png"
+          src="/python-intro.webp"
           width={1000}
           height={760}
           alt="Section 2 image">
