@@ -28,7 +28,7 @@ export default function Page() {
           height={760}
           alt="Section 2 image">
           </Section1Image>
-        <h2>Python Logo</h2>
+        <h2>Introduction to Python</h2>
         In the introduction of Python, it includes topics such as installation, running your first Python program and understanding the syntax for Python. After gaining the foundation skills to use Python, we can begin to use Python for small animation, app and interactive projects.
         </section>
 
