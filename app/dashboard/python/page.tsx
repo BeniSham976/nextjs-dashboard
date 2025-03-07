@@ -24,7 +24,10 @@ export default function Page() {
         <section className="bg-blue-500 rounded-xl" id='one'>
           <Section1Image
           src="/python.png"
-          alt="Section 2 image"></Section1Image>
+          width={1000}
+          height={760}
+          alt="Section 2 image">
+          </Section1Image>
         </section>
 
         <section className='bg-purple-500 rounded-xl' id='two'>
