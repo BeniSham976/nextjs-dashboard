@@ -15,10 +15,9 @@ export default function Page() {
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
           <div className={styles.shape}></div>
           <p
-      className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
-    >
-      <h2><strong>Python</strong></h2> Python is a object-oriented, high-level programming language that is very popular and often reccomended for beginners looking to learn their first programming language. Apps such as Spotify, Google Search and Instagram use Python for its speed, efficiency and easy maintenance of their respective apps. The programming language is easy to learn, unlike C++ or Java{' '}
+      className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
       </p>
+      <h2><strong>Python</strong></h2> Python is a object-oriented, high-level programming language that is very popular and often reccomended for beginners looking to learn their first programming language. Apps such as Spotify, Google Search and Instagram use Python for its speed, efficiency and easy maintenance of their respective apps. The programming language is easy to learn, unlike C++ or Java{' '}
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:w-4/5 lg:gap-6 lg:justify-center lg:mx-auto xl:grid xl:grid-cols-2 xl:w-4/5 xl:gap-6 xl:justify-center 2xl:mx-auto 2xl:grid 2xl:grid-cols-2 2xl:w-4/5 2xl:gap-6 2xl:justify-center xl:mx-auto md:grid md:grid-cols-2 md:gap-4 md:mx-auto">
         <section className="bg-blue-500 rounded-xl" id='one'>
