@@ -3,6 +3,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import Section1Image from 'next/image';
+import Section2Image from 'next/image';
 import styles from '@/app/ui/home.module.css';
 
 export default function Page() {
@@ -32,6 +33,12 @@ export default function Page() {
         </section>
 
         <section className='bg-purple-500 rounded-xl' id='two'>
+        <Section2Image
+        src="/python-intro.webp"
+          width={1000}
+          height={760}
+          alt="Section 2 image">
+        </Section2Image>
         <h2>More Python</h2>
         This is the next step up from the Introduction to Scratch. In this section, you will create apps, games if...then conditions and variables. Using the skills you built on in the beginning, the projects can become more complex, which will display your higher levels of programming skills.
         </section>
