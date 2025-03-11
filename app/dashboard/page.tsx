@@ -4,10 +4,14 @@ import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 import styles from '@/app/ui/home.module.css';
+import { Html } from 'next/document';
 
 export default function Page() {
     return ( 
       // ...
+      <html>
+    <body>
+      <div className=''>
     <main className="flex min-h-screen flex-col p-6">
     <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
       <AcmeLogo />
@@ -43,5 +47,8 @@ export default function Page() {
         </div>
       </div>
     </main>
+    </div>
+    </body>
+    </html>
     );
   }
