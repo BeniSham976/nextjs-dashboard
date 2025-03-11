@@ -34,7 +34,7 @@ export default function Page() {
 
         <section className='bg-purple-500 rounded-xl' id='two'>
         <Section2Image
-        src="/python-intro.webp"
+        src="/more-python.webp"
           width={1000}
           height={760}
           alt="Section 2 image">
