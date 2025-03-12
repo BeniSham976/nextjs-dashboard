@@ -1,54 +1,65 @@
-import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
-import Image from 'next/image';
+import Section1Image from 'next/image';
+import Section2Image from 'next/image';
+import Section3Image from 'next/image';
 import styles from '@/app/ui/home.module.css';
 import { Html } from 'next/document';
 
 export default function Page() {
     return ( 
       // ...
-      <html>
-    <body>
-      <div className=''>
+      <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
     <main className="flex min-h-screen flex-col p-6">
-    <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-      <AcmeLogo />
-      </div>
-      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
-        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-          <div className={styles.shape}></div>
+        <div className="bg-gray-50 mx-2 border-4">
           <p
       className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
-    >
-      <strong>Learn to code with Code Club.</strong> Our projects have step-by-step instructions to teach you how to create games, animations, and much more. Choose from hundreds of options, in up to 30 languages.{' '}
+    ></p>
+      <h2><strong>Learn to code with Code Club.</strong></h2> Our projects have step-by-step instructions to teach you how to create games, animations, and much more. Choose from hundreds of options, in up to 30 languages.{' '}
       <a href="/dashboard" className="text-blue-500">
         dashboard home page
       </a>
       , Author: Beni Shamavu, using Vercel nextjs framework.
-      </p>
+        </div><br></br>
+        <div className='lg:grid lg:grid-cols-3 lg:w-4/5 lg:gap-6 lg:justify-center lg:mx-auto xl:grid xl:grid-cols-3 xl:w-4/5 xl:gap-6 xl:justify-center xl:mx-auto md:grid md:grid-cols-2 md:gap-4 md:mx-auto'>
+        <section className="bg-yellow-300 rounded-xl text-center" id='one'>
+          <Section1Image
+          src="/scratch.png"
+          width={1000}
+          height={760}
+          alt="Section 2 image">
+          </Section1Image>
+          <h2>Scratch</h2>
+            <p>Create animations, apps, and interactive stories by adding code, costumes, and sounds.</p>
+          <a href="/dashboard/scratch"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Scratch</button></a>
+        </section>
+
+        <section className='bg-blue-300 rounded-md text-center' id='two'>
+        <Section2Image
+          src="/python.png"
+          width={1000}
+          height={760}
+          alt="Section 2 image">
+          </Section2Image>
+          <h2>Python</h2>
+            <p>Make digital art, games, and more while exploring one of the world's most popular programming languages.</p>
+          <a href="/dashboard/python"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Scratch</button></a>
+          </section>
+
+          <section className='bg-cyan-500 rounded-md text-center' id='three'>
+          <Section3Image
+          src="/web.png"
+          width={1000}
+          height={760}
+          alt="Section 3 image">
+          </Section3Image>
+          <h2>Web design</h2>
+           <p>Build websites and apps by learning HTML, CSS, and JavaScript.</p>
+           <a href="/dashboard/web"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Scratch</button></a>
+          </section>
         </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-      {/* Add Hero Images Here */}
-      <Image
-        src="/web.png"
-        width={1000}
-        height={760}
-        className="hidden md:block"
-        alt="Screenshots of the dashboard project showing desktop version"
-      />
-      <Image
-      src="/python.png"
-      width={560}
-      height={620}
-      className="block md:hidden"
-      alt="Screenshots of the dashboard project showing mobile version (layout example on mobile device))"/>
-        </div>
-      </div>
     </main>
     </div>
-    </body>
-    </html>
     );
   }
