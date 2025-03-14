@@ -2,13 +2,12 @@ import { lusitana } from '@/app/ui/fonts';
 import Section1Image from 'next/image';
 import Section2Image from 'next/image';
 import Section3Image from 'next/image';
-import styles from '@/app/ui/home.module.css';
 
 export default function Page() {
     return (
       // ..
-      
-    <main>
+    <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">  
+    <main className="flex min-h-screen flex-col p-6">
     <div className="bg-yellow-300 border-4 border-blue-500 mx-2 rounded-2xl">
     <h2><strong>Python</strong></h2> Python is a object-oriented, high-level programming language that is very popular and often reccomended for beginners looking to learn their first programming language. Apps such as Spotify, Google Search and Instagram use Python for its speed, efficiency and easy maintenance of their respective apps. The programming language is easy to learn, unlike C++ or Java
       </div><br></br>
@@ -50,5 +49,6 @@ export default function Page() {
         </section>
         </div>
     </main>
+    </div>
     );
   }

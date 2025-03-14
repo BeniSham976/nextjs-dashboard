@@ -1,6 +1,7 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
+import SideNav from '../ui/dashboard/sidenav';
 import Section1Image from 'next/image';
 import Section2Image from 'next/image';
 import Section3Image from 'next/image';
@@ -12,7 +13,7 @@ export default function Page() {
       // ...
       <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
     <main className="flex min-h-screen flex-col p-6">
-        <div className="bg-gray-50 mx-2 border-4">
+        <div className="bg-gray-50 mx-2">
           <p
       className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
     ></p>
