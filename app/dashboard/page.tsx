@@ -14,14 +14,9 @@ export default function Page() {
       <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
     <main className="flex min-h-screen flex-col p-6">
         <div className="bg-gray-50 mx-2">
-          <p
-      className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
+          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
     ></p>
-      <h2><strong>Learn to code with Code Club.</strong></h2> Our projects have step-by-step instructions to teach you how to create games, animations, and much more. Choose from hundreds of options, in up to 30 languages.{' '}
-      <a href="/dashboard" className="text-blue-500">
-        dashboard home page
-      </a>
-      , Author: Beni Shamavu, using Vercel nextjs framework.
+      <h2><strong>Learn to code with Code Club.</strong></h2> Our projects have step-by-step instructions to teach you how to create games, animations, and much more. Choose from hundreds of options, in up to 30 languages.
         </div><br></br>
         <div className='lg:grid lg:grid-cols-3 lg:w-4/5 lg:gap-6 lg:justify-center lg:mx-auto xl:grid xl:grid-cols-3 xl:w-4/5 xl:gap-6 xl:justify-center xl:mx-auto md:grid md:grid-cols-2 md:gap-4 md:mx-auto'>
         <section className="bg-yellow-300 rounded-xl text-center" id='one'>
@@ -45,7 +40,7 @@ export default function Page() {
           </Section2Image>
           <h2>Python</h2>
             <p>Make digital art, games, and more while exploring one of the world's most popular programming languages.</p>
-          <a href="/dashboard/python"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Scratch</button></a>
+          <a href="/dashboard/python"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Python</button></a>
           </section>
 
           <section className='bg-cyan-500 rounded-md text-center' id='three'>
@@ -57,7 +52,7 @@ export default function Page() {
           </Section3Image>
           <h2>Web design</h2>
            <p>Build websites and apps by learning HTML, CSS, and JavaScript.</p>
-           <a href="/dashboard/web"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Scratch</button></a>
+           <a href="/dashboard/web"><button className='bg-gray-100 border-2 place-content-evenly rounded text-center'>Explore Web</button></a>
           </section>
         </div>
     </main>
