@@ -8,8 +8,8 @@ export default function Page() {
       // ..
     <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">  
     <main className="flex min-h-screen flex-col p-6">
-    <div className="bg-yellow-300 border-4 border-gray-100 mx-2 rounded-2xl">
-    <h2><strong>Scratch</strong></h2>Start creating animations, games and stories using the Scratch programming language that is used by primary and secondary school computer classes. It's also great for anybody who wants to learn programming for personal projects.
+    <div className="bg-yellow-300 border-4 border-blue-500 mx-2 rounded-2xl">
+    <h2><strong>Python</strong></h2> Python is a object-oriented, high-level programming language that is very popular and often reccomended for beginners looking to learn their first programming language. Apps such as Spotify, Google Search and Instagram use Python for its speed, efficiency and easy maintenance of their respective apps. The programming language is easy to learn, unlike C++ or Java
       </div><br></br>
       <p
       className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
